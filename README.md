@@ -18,3 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 Demo
 - [video1](https://drive.google.com/file/d/1jT08xjd2ksKMGm9-tFHzDXIxb04fKbe2/view?usp=drive_link)
 - [video2](https://drive.google.com/file/d/1j2nq7bJ8yc7rJKaZDFzdNT2iduM_yGd2/view?usp=drive_link)
+
+Frontend server hosted on
+- http://3.104.122.162:8089/
