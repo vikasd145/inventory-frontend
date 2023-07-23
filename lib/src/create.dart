@@ -163,8 +163,8 @@ class _FormPageState extends State<FormPage> {
                   ),
                 ),
                 validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter the Serial Number';
+                  if (value!.isEmpty && value.length > 200) {
+                    return 'Please enter Valid Serial Number';
                   }
                   return null;
                 },
@@ -189,8 +189,8 @@ class _FormPageState extends State<FormPage> {
                   ),
                 ),
                 validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter the Brand';
+                  if (value!.isEmpty && value.length > 200) {
+                    return 'Please enter legit Value';
                   }
                   return null;
                 },
@@ -215,8 +215,8 @@ class _FormPageState extends State<FormPage> {
                   ),
                 ),
                 validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter the Model';
+                  if (value!.isEmpty && value.length > 200) {
+                    return 'Please enter valid Model';
                   }
                   return null;
                 },
@@ -241,8 +241,8 @@ class _FormPageState extends State<FormPage> {
                   ),
                 ),
                 validator: (value) {
-                  if (value!.isEmpty) {
-                    return 'Please enter the Status';
+                  if (value!.isEmpty && value.length > 200) {
+                    return 'Please enter valid Status';
                   }
                   return null;
                 },
