@@ -22,3 +22,4 @@ Demo
 Frontend server hosted on
 - http://3.104.122.162:8089/
 - Any Field length in backend is stored in sql varchar 200 don't try more than that right now validation is not working
+- Right now this is hosted on EC2 instance same as backend. We can also host this in https server
